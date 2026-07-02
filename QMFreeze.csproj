@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\Libraries\net6\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\Libraries\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp-firstpass">
+        <HintPath>..\Libraries\Il2CppAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Common">
+        <HintPath>..\Libraries\net6\Il2CppInterop.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Generator">
+        <HintPath>..\Libraries\net6\Il2CppInterop.Generator.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.HarmonySupport">
+        <HintPath>..\Libraries\net6\Il2CppInterop.HarmonySupport.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Runtime">
+        <HintPath>..\Libraries\net6\Il2CppInterop.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppmscorlib">
+        <HintPath>..\Libraries\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppVRC.UI.Core">
+        <HintPath>..\Libraries\Il2CppAssemblies\Il2CppVRC.UI.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppVRC.UI.Elements">
+        <HintPath>..\Libraries\Il2CppAssemblies\Il2CppVRC.UI.Elements.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppVRC.UI.Shared">
+        <HintPath>..\Libraries\Il2CppAssemblies\Il2CppVRC.UI.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppVRCSDKBase">
+        <HintPath>..\Libraries\Il2CppAssemblies\Il2CppVRCSDKBase.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppWebTransMtn">
+        <HintPath>..\Libraries\Il2CppAssemblies\Il2CppWebTransMtn.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>..\Libraries\net6\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\Libraries\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>..\Libraries\Il2CppAssemblies\UnityEngine.Physics2DModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>..\Libraries\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
